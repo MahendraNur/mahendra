@@ -1,0 +1,116 @@
+html {
+    scroll-behavior: smooth; /* Menambahkan smooth scroll di seluruh halaman */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+section {
+    margin: 2rem;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: auto;
+}
+
+.gallery-grid2 img {
+    width: 200px;
+    height: 200px;
+}
+
+.tulisan{
+    color: white;
+}
+
+
+.hidden {
+    display: none;
+}
+
+#education-image {
+    margin-top: 20px;
+}
+
+/* Menampilkan list secara horizontal */
+.horizontal-list {
+    display: flex;             /* Menggunakan Flexbox */
+    justify-content: space-around; /* Membagi jarak antar item */
+    list-style-type: none;     /* Menghapus bullet point list */
+    padding: 0;                /* Menghilangkan padding default */
+}
+
+.horizontal-list li {
+    margin: 0 20px;            /* Menambahkan jarak antar item */
+    cursor: pointer;           /* Menjadikan item bisa diklik */
+    padding: 10px;
+    background-color: #f0f0f0; /* Sedikit gaya untuk setiap item */
+    border-radius: 5px;        /* Membuat sudut kotak jadi bulat */
+    transition: background-color 0.3s ease; /* Efek hover */
+}
+
+.horizontal-list li:hover {
+    background-color: #ddd;    /* Mengubah warna saat di-hover */
+}
+
+#education-image {
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+
+    .profile-pic {
+        width: 100%; /* Mengatur lebar gambar mengikuti bingkai */
+        height: auto; /* Menjaga proporsi gambar */
+        object-fit: cover; /* Memastikan gambar terpotong proporsional */
+        border-radius: 100%; /* Membuat bingkai bulat */
+    }
+
+
+    nav {
+        margin-top: 20px; /* Memberikan jarak atas untuk nav */
+    }
+
+    nav a {
+        margin: 0 15px; /* Memberikan jarak antar tautan */
+        text-decoration: none; /* Menghilangkan garis bawah pada tautan */
+
+    }
+
+    section {
+        padding: 60px 20px; /* Menambahkan padding untuk setiap section */
+        border: 1px solid #ccc; /* Menambahkan border untuk memisahkan section */
+        margin: 10px 0; /* Memberikan margin antar section */
+    }
+
+    
